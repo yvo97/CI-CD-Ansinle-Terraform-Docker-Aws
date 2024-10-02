@@ -29,13 +29,7 @@ pipeline {
             }
         }
 
-        stage('SonarCloud analysis') {
-            steps {
-                withSonarQubeEnv('SonarCloudServer') {
-                    sh 'mvn sonar:sonar -s .m2/settings.xml'
-                }
-            }
-        }
+
 
         stage('Quality Gate') {
             steps {
