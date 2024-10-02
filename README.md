@@ -1,1 +1,3 @@
-# CI-CD-Ansinle-Terraform-Docker-Aws
+# jenkins-CICD-spring-boot-app
+
+![alt text](<CICD Jenkins.png>)
